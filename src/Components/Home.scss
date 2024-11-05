@@ -1,0 +1,760 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.common {
+    display: flex;
+    gap: 300px;
+    cursor: pointer;
+
+
+    .common1 {
+        position: absolute;
+
+        h1 {
+            margin-left: 240px;
+            font-size: 22px;
+            margin-top: 10px;
+        }
+
+        span {
+            color: rgb(232, 232, 84);
+        }
+    }
+
+    .common2 {
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 360px;
+
+        input {
+            height: 30px;
+            width: 400px;
+            font-size: 10px;
+            padding: 10px;
+        }
+
+        .search {
+            position: absolute;
+            margin-top: -20px;
+            margin-left: 375px;
+            font-size: 12px;
+            padding: 0px;
+
+        }
+    }
+
+    .custom {
+        position: absolute;
+        margin-left: 780px;
+        margin-top: 10px;
+
+    }
+
+    .common3 {
+
+        position: absolute;
+        margin-left: 920px;
+        margin-top: 10px;
+    }
+
+    .common4 {
+        position: absolute;
+        margin-left: 940px;
+
+        select {
+            border: none;
+            margin-top: 17px;
+            font-size: 10px;
+        }
+    }
+
+    .common5 {
+        position: absolute;
+        margin-left: 1100px;
+        cursor: pointer;
+
+        .shop {
+            position: absolute;
+            margin-left: -100px;
+            margin-top: 14px;
+            cursor: pointer;
+        }
+
+        h5 {
+            position: absolute;
+            margin-top: 14px;
+            margin-left: -80px;
+            font-weight: 300;
+            font-size: 11px;
+            cursor: pointer;
+        }
+    }
+
+    .common5 {
+        position: absolute;
+        cursor: pointer;
+
+        button {
+            color: white;
+            background-color: black;
+            border: none;
+            height: 30px;
+            width: 80px;
+            border-radius: 4px;
+            margin-top: 10px;
+            margin-left: -20px;
+            font-size: 10px;
+            cursor: pointer;
+        }
+    }
+}
+
+hr {
+    margin-top: 55px;
+    margin-left: 240px;
+    margin-right: 375px;
+    cursor: pointer;
+}
+
+.overall {
+    cursor: pointer;
+
+    .overall1 {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-right: 100px;
+        gap: 100px;
+        height: 25px;
+
+    }
+
+    .overall2 {
+        display: flex;
+        gap: 65px;
+        margin-left: 320px;
+        margin-top: 10px;
+        font-size: 12px;
+
+        .Categories1 {
+            margin-left: -10px;
+        }
+
+        .Wallpaper1 {
+            position: absolute;
+            margin-left: 240px;
+        }
+
+        .Stickers1 {
+            position: absolute;
+            margin-left: 370px;
+
+        }
+
+        .Artificial1 {
+            position: absolute;
+            margin-left: 490px;
+
+        }
+
+        .Visualizer1 {
+            position: absolute;
+            margin-left: 610px;
+
+        }
+
+        .Catalouge1 {
+            position: absolute;
+            margin-left: 740px;
+        }
+
+    }
+}
+
+.stylish {
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+
+    .most {
+        position: absolute;
+        margin-top: 130px;
+        color: white;
+    }
+
+    span {
+        color: yellow;
+    }
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+
+    }
+
+    h2 {
+        font-weight: 500;
+        font-size: 30px;
+    }
+}
+
+.box {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    position: relative;
+    margin-top: -150px;
+    border: black;
+    cursor: pointer;
+
+
+    .box1 {
+        background-color: rgb(240, 233, 233);
+        height: 200px;
+        width: 21%;
+
+    }
+
+    .box2 {
+        background-color: rgb(240, 233, 233);
+        height: 200px;
+        width: 21%;
+    }
+
+    .box3 {
+        background-color: rgb(240, 233, 233);
+        height: 200px;
+        width: 21%;
+    }
+
+    img {
+        height: 40px;
+        padding: 25px;
+        margin-left: 15px;
+    }
+
+    h4 {
+        margin-top: -20px;
+        font-size: 17px;
+        font-weight: 500;
+        margin-left: 40px;
+    }
+
+    p {
+        margin-top: 6px;
+        font-size: 12px;
+        font-weight: 100;
+        margin-left: 40px;
+    }
+
+    button {
+        background-color: black;
+        color: white;
+        border: none;
+        margin-left: 40px;
+        margin-top: 25px;
+        height: 30px;
+        width: 100px;
+        font-size: 10px;
+        border-radius: 4px;
+    }
+
+    .box4 {
+        position: absolute;
+
+        img {
+            height: 100px;
+            margin-left: 985px;
+            margin-top: -39.5px;
+        }
+    }
+}
+
+.back {
+    background-color: #1A2323;
+    height: 170px;
+    width: 980px;
+    margin-top: 70px;
+    margin-left: 270px;
+    border-radius: 5px;
+
+    .boxi4 {
+        display: flex;
+        justify-content: space-around;
+        height: 50px;
+        padding: 20px;
+    }
+
+    .boxi5 {
+        position: absolute;
+        display: flex;
+        gap: 200px;
+        margin-top: -60px;
+        height: 20px;
+        margin-left: 100px;
+    }
+
+    .b5 {
+        margin-left: 5px;
+        margin-top: 5px;
+        height: 15px;
+    }
+
+    .b6 {
+        margin-left: -28px;
+        margin-top: 1px;
+    }
+
+    .b7 {
+        margin-left: -30px;
+    }
+
+    .b8 {
+        margin-left: -33px;
+    }
+
+    .b9 {
+        margin-left: -30px;
+    }
+}
+
+.tags {
+    display: flex;
+    gap: 130px;
+    color: white;
+    margin-left: 90px;
+    margin-top: -20px;
+
+    .years {
+        margin-left: -10px;
+    }
+
+    .million {
+        margin-left: -10px;
+    }
+
+    .longs {
+        margin-left: -30px;
+    }
+
+    .free {
+        margin-left: -11px;
+
+    }
+}
+
+.tags1 {
+    display: flex;
+    gap: 110px;
+    margin-left: 90px;
+    color: white;
+    font-weight: 400;
+
+    .collections {
+        font-weight: 400;
+
+    }
+
+    .of {
+        font-weight: 400;
+        margin-left: 6px;
+    }
+
+    .mers {
+        font-weight: 400;
+        margin-left: 4px;
+
+    }
+
+    .durability {
+        margin-left: 14px;
+        font-weight: 400;
+    }
+
+    .delivery {
+        margin-left: 29px;
+        font-weight: 400;
+    }
+}
+
+.seller {
+    margin-top: 50px;
+
+    .seller1 {
+        display: flex;
+        justify-content: space-evenly;
+
+        h2 {
+            margin-right: 500px;
+            font-weight: 400;
+        }
+
+        button {
+            background: transparent;
+            border: none;
+            font-weight: 400;
+            color: rgb(11, 11, 252);
+            margin-left: 30px;
+        }
+    }
+}
+
+.sellers2 {
+    display: flex;
+    gap: 10px;
+    margin-left: 270px;
+    margin-top: 30px;
+
+
+    img {
+        height: 140px;
+    }
+}
+
+.design {
+    display: flex;
+    gap: 46px;
+    padding-left: 268px;
+
+    .design1 {
+        font-size: 15px;
+    }
+
+    .design2 {
+        font-size: 15px;
+
+
+    }
+
+    .design3 {
+        font-size: 15px;
+        padding-left: 13px;
+    }
+
+    .design4 {
+        font-size: 15px;
+        padding-right: 3px;
+    }
+
+    p {
+        font-weight: 100;
+        padding-top: 5px;
+    }
+
+    h4 {
+        font-weight: 500;
+    }
+}
+
+.main {
+    background: #f6f2f2;
+    height: 450px;
+    margin-top: 70px;
+}
+
+.back1 {
+    background-color: black;
+    height: 50px;
+    margin-top: 100px;
+}
+
+.Artificial {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.art {
+    padding-top: 40px;
+    margin-right: 500px;
+    font-weight: 400;
+
+}
+
+.viewbtn {
+    padding-top: 40px;
+    background: transparent;
+    border: none;
+    font-weight: 400;
+    color: rgb(11, 11, 252);
+    margin-left: 30px;
+}
+
+.space {
+    padding-left: 260px;
+    padding-top: 20px;
+    font-size: 12px;
+}
+
+.seller4 {
+    display: flex;
+    gap: 15px;
+    padding-left: 260px;
+    padding-top: 20px;
+
+    img {
+
+        height: 150px;
+    }
+}
+
+.designs {
+    display: flex;
+    gap: 155px;
+    padding-left: 268px;
+    padding-top: 10px;
+
+    .designs1 {
+        font-size: 15px;
+        padding-left: -15px;
+    }
+
+    .designs2 {
+        font-size: 15px;
+
+
+    }
+
+    .designs3 {
+        font-size: 15px;
+        padding-left: 13px;
+    }
+
+    p {
+        font-weight: 100;
+        padding-top: 5px;
+    }
+
+    h4 {
+        font-weight: 500;
+    }
+}
+
+
+.popular {
+    margin-top: 50px;
+
+    .most {
+        display: flex;
+        justify-content: space-evenly;
+
+        h2 {
+            margin-right: 410px;
+            font-weight: 400;
+        }
+
+        button {
+            background: transparent;
+            border: none;
+            font-weight: 400;
+            color: rgb(11, 11, 252);
+            margin-left: 30px;
+        }
+    }
+
+}
+@media( max-width:1050px){
+
+    .popular h2 button{
+        max-width: 45%;
+    }
+
+}
+@media(max-width:750px){
+    .most{
+        max-width: 60%;
+    }
+    .popular h2 button{
+        max-width: 60%;
+    }
+}
+
+
+.sellrs7 {
+    display: flex;
+    gap: 10px;
+    margin-left: 250px;
+    margin-top: 30px;
+
+
+    img {
+        height: 145px;
+    }
+}
+
+.designss {
+    display: flex;
+    gap: 43px;
+    padding-left: 255px;
+    padding-top: 10px;
+
+    .designss1 {
+        font-size: 15px;
+        padding-left: -15px;
+    }
+
+    .designss2 {
+        font-size: 15px;
+
+
+    }
+
+    .designss3 {
+        font-size: 15px;
+        padding-left: 25px;
+    }
+
+    .designss4 {
+        font-size: 15px;
+        padding-left: 13px;
+    }
+
+    p {
+        font-weight: 100;
+        padding-top: 5px;
+    }
+
+    h4 {
+        font-weight: 500;
+    }
+}
+
+.Araivel {
+    margin-top: 50px;
+
+    .NewA {
+        display: flex;
+        justify-content: space-evenly;
+
+        h2 {
+            margin-right: 530px;
+            font-weight: 400;
+        }
+
+        button {
+            background: transparent;
+            border: none;
+            font-weight: 400;
+            color: rgb(11, 11, 252);
+            margin-left: 30px;
+        }
+    }
+}
+
+.Rooms {
+    margin-top: 80px;
+    background: #E6C156;
+    height: 400px;
+
+    .visualizer {
+        padding-left: 250px;
+        padding-top: 50px;
+
+        h3 {
+            font-size: 25px;
+            font-weight: 400;
+        }
+
+        p {
+            font-size: 12px;
+        }
+    }
+
+    .Rooms1 {
+        position: relative;
+        margin-top: -100px;
+        padding-left: 750px;
+
+        .candy {
+            position: absolute;
+            height: 300px;
+        }
+
+        .Hand {
+            position: absolute;
+            height: 300px;
+            padding-left: 5px;
+            padding-top: 20px;
+        }
+
+        .iphone {
+            position: absolute;
+            height: 172px;
+            padding-left: 178px;
+            padding-top: 63px;
+        }
+
+        button {
+            position: absolute;
+            margin-left: -500px;
+            margin-top: 130px;
+            height: 35px;
+            width: 180px;
+            border-radius: 5px;
+            font-size: 10px;
+        }
+
+        .play {
+            position: absolute;
+            margin-left: -510px;
+            margin-top: 250px;
+            height: 50px;
+        }
+
+        .scan {
+            position: absolute;
+            margin-left: -240px;
+            height: 80px;
+            margin-top: 230px;
+
+        }
+
+        h5 {
+            position: absolute;
+            margin-left: -500px;
+            margin-top: 230px;
+            font-weight: 500;
+
+        }
+
+        h6 {
+            position: absolute;
+            margin-left: -260px;
+            margin-top: 265px;
+            font-weight: 400;
+        }
+        h4 {
+            position: absolute;
+            margin-left: -222px;
+            margin-top: 305px;
+            font-weight: 400;
+            font-size: 12px;
+        }
+        
+
+    }
+}
+
+
+@media(max-width:1050px){
+    .container{
+        max-width: 45%;
+    }
+}
+
+@media(max-width:750px){
+    .container{
+        max-width: 60%;
+    }
+    .container p{
+        display: none;
+    }
+    .container button{
+        padding: 2vw 4vw;
+    }
+}
